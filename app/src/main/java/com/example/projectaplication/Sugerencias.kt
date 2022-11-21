@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.ListFragment
 import com.example.projectaplication.databinding.ActivityMainBinding
 
 
-class Sugerencias : ListFragment() {
+class Sugerencias : Fragment() {
 
     interface RegistroSugerencia {
         fun AnotarSugerencia(position: Int)
