@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_new"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_margin="26px">
+
+    </ImageView>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="130px"
+        android:background="@color/black"
+        android:text="HOLA, YERSON!"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desbloquea tu potencial, vamos a"
+        android:layout_marginTop="190px"
+        android:layout_marginLeft="30px"
+        android:textColor="@color/white"
+        android:background="@color/yelow">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="trabajar."
+        android:layout_marginTop="250px"
+        android:layout_marginLeft="30px"
+        android:textColor="@color/white"
+        android:background="@color/yelow">
+
+    </TextView>
+
+
+</FrameLayout>
