@@ -29,12 +29,12 @@ AdapterView.OnItemClickListener{
                 else -> {
 
                 }
+
             }
 
             true
 
         }
-
 
     }
 
@@ -45,15 +45,14 @@ AdapterView.OnItemClickListener{
         fragmentTransaction.replace(R.id.frame_layout, fragment)
         fragmentTransaction.commit()
 
-
     }
 
-    override fun onClick(v: View?) {
-        TODO("Not yet implemented")
+    override fun onClick(v: View) {
+
     }
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        TODO("Not yet implemented")
+
     }
 
 }

@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yelow">#E8E52A</color>
-    <color name="theme_new">#060000</color>
+    <color name="ocre">#DCC911</color>
 
     <color name="snackbarerror">#DF3333</color>
     <color name="snackbarsuccess">#095BBF</color>

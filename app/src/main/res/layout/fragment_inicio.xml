@@ -1,53 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/theme_new"
+    android:background="@color/black"
     tools:context=".Inicio">
 
-    <ImageView
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:src="@drawable/ic_baseline_account_circle_24"
-        android:layout_margin="26px">
-
-    </ImageView>
-
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30px"
-        android:layout_marginTop="130px"
-        android:background="@color/black"
-        android:text="HOLA, YERSON!"
-        android:textColor="@color/white"
-        android:textStyle="bold">
 
-    </TextView>
+    <ImageView
+        android:id="@+id/imgRutinas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_fitness_center_24"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="330dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Desbloquea tu potencial, vamos a"
-        android:layout_marginTop="190px"
-        android:layout_marginLeft="30px"
-        android:textColor="@color/white"
-        android:background="@color/yelow">
-
-    </TextView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="trabajar."
-        android:layout_marginTop="250px"
-        android:layout_marginLeft="30px"
+        android:text="Hola, Yerson!"
+        android:textColor="@color/ocre"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a"
         android:textColor="@color/white"
-        android:background="@color/yelow">
+        android:textSize="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="12dp"/>
 
-    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GYM GOLD"
+        android:textColor="@color/ocre"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="108dp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="631dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="@color/yelow"
+                app:srcCompat="@drawable/ic_baseline_headset_mic_24" />
+
+            <ImageView
+                android:id="@+id/imgpage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+    </FrameLayout>
 
 </FrameLayout>
